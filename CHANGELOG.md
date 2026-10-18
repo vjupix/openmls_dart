@@ -11,6 +11,7 @@
   `FlexibleCommitOptions.keepPending`.
 - **Group-context extensions OpenMLS defines are passed typed** — so an
   application's own extension can be required with `RequiredCapabilities`.
+- **openmls_frb v2.3.2** — Rust FFI bindings
 
 #### Added
 
