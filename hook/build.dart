@@ -50,7 +50,10 @@ const _packageName = 'openmls';
 const _assetId = 'openmls';
 
 /// GitHub repository for downloading releases.
-const _githubRepo = 'djx-y-z/openmls_dart';
+// The fork's own releases, built from its patches, until they are upstream:
+// the binaries upstream publishes lack them, and a binding whose Dart side
+// and native side differ fails when it starts.
+const _githubRepo = 'vjupix/openmls_dart';
 
 /// Rust crate name (used for library filenames and release tags).
 const _crateName = 'openmls_frb';
